@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Componentes/Navbar';
+import Principal from './Componentes/Principal';
 
 
 
@@ -9,10 +10,10 @@ function App() {
     <div>
 
     <Navbar/>
-    
-
-
+    <Principal/>
     </div>
+
+    
 
 
 
