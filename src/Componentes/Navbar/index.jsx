@@ -1,26 +1,17 @@
 import React from 'react';
 import "./navbar.css";
 
-
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="/">Logo de la tienda</a>
+        <h1>Bottiello Calzados</h1>
       </div>
       <ul className="nav-links">
-        <li>
-          <a href="/">Inicio</a>
-        </li>
-        <li>
-          <a href="/productos">Productos</a>
-        </li>
-        <li>
-          <a href="/contacto">Contacto</a>
-        </li>
-        <li>
-          <a href="/carrito">Carrito</a>
-        </li>
+        <li className="nav-link">Inicio</li>
+        <li className="nav-link">Productos</li>
+        <li className="nav-link">Ofertas</li>
+        <li className="nav-link">Contacto</li>
       </ul>
     </nav>
   );

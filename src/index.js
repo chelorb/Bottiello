@@ -2,16 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './Componentes/Navbar';
-import Carousel from './Componentes/Carrousel1';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
 
-    <Navbar />
-  <Carousel/>
+    <App/>
+
   </React.StrictMode>
 );
 
